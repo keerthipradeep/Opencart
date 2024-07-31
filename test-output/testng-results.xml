@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-24T11:08:24 BST" name="Suite" finished-at="2024-07-24T11:09:21 BST" duration-ms="56520">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC04_ContactUsForm.contactusform()[pri:0, instance:testCases.TC04_ContactUsForm@316bcf94]" name="contactusform" class="testCases.TC04_ContactUsForm"/>
+        <method signature="Tc01_AccountSignupTest.accountsignuptest()[pri:0, instance:testCases.Tc01_AccountSignupTest@66f57048]" name="accountsignuptest" class="testCases.Tc01_AccountSignupTest"/>
+        <method signature="Tc02_AccountLoginWithExistingUser.LoginPagetestcase()[pri:0, instance:testCases.Tc02_AccountLoginWithExistingUser@550dbc7a]" name="LoginPagetestcase" class="testCases.Tc02_AccountLoginWithExistingUser"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-07-24T11:08:24 BST" name="Test" finished-at="2024-07-24T11:09:21 BST" duration-ms="56520">
+      <class name="testCases.Tc01_AccountSignupTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.Tc01_AccountSignupTest@66f57048]" started-at="2024-07-24T11:08:58 BST" name="login" finished-at="2024-07-24T11:09:05 BST" duration-ms="6494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="accountsignuptest()[pri:0, instance:testCases.Tc01_AccountSignupTest@66f57048]" started-at="2024-07-24T11:09:05 BST" name="accountsignuptest" finished-at="2024-07-24T11:09:11 BST" duration-ms="6320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountsignuptest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.Tc01_AccountSignupTest@66f57048]" started-at="2024-07-24T11:09:11 BST" name="logout" finished-at="2024-07-24T11:09:12 BST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testCases.Tc01_AccountSignupTest -->
+      <class name="testCases.TC04_ContactUsForm">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.TC04_ContactUsForm@316bcf94]" started-at="2024-07-24T11:08:25 BST" name="login" finished-at="2024-07-24T11:08:34 BST" duration-ms="8757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="contactusform()[pri:0, instance:testCases.TC04_ContactUsForm@316bcf94]" started-at="2024-07-24T11:08:34 BST" name="contactusform" finished-at="2024-07-24T11:08:58 BST" duration-ms="24040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactusform -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC04_ContactUsForm@316bcf94]" started-at="2024-07-24T11:08:58 BST" name="logout" finished-at="2024-07-24T11:08:58 BST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testCases.TC04_ContactUsForm -->
+      <class name="testCases.Tc02_AccountLoginWithExistingUser">
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.Tc02_AccountLoginWithExistingUser@550dbc7a]" started-at="2024-07-24T11:09:12 BST" name="login" finished-at="2024-07-24T11:09:18 BST" duration-ms="6260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="LoginPagetestcase()[pri:0, instance:testCases.Tc02_AccountLoginWithExistingUser@550dbc7a]" started-at="2024-07-24T11:09:18 BST" name="LoginPagetestcase" finished-at="2024-07-24T11:09:21 BST" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPagetestcase -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.Tc02_AccountLoginWithExistingUser@550dbc7a]" started-at="2024-07-24T11:09:21 BST" name="logout" finished-at="2024-07-24T11:09:21 BST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testCases.Tc02_AccountLoginWithExistingUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

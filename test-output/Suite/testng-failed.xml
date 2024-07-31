@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.Tc02_AccountLoginWithExistingUser">
+        <methods>
+          <include name="LoginPagetestcase"/>
+        </methods>
+      </class> <!-- testCases.Tc02_AccountLoginWithExistingUser -->
+      <class name="testCases.TC04_ContactUsForm">
+        <methods>
+          <include name="contactusform"/>
+        </methods>
+      </class> <!-- testCases.TC04_ContactUsForm -->
+      <class name="testCases.Tc01_AccountSignupTest">
+        <methods>
+          <include name="accountsignuptest"/>
+        </methods>
+      </class> <!-- testCases.Tc01_AccountSignupTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

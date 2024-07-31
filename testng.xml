@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+     <listeners>
+     <listener class-name="Utilities.ExtentReportManager"/>
+</listeners>
+<test thread-count="5" name="Test">
+		<classes>
+			<class name="testCases.TC04_ContactUsForm" />
+			<class name="testCases.TC03_AccountLoginWithInvalidEmailAddress" />
+			<class name="testCases.Tc01_AccountSignupTest" />
+			<class name="testCases.Tc02_AccountLoginWithExistingUser" />
+			<class name="testCases.Tc05_TestDDT" />
+		</classes>
+	</test> 
+</suite> 
+
